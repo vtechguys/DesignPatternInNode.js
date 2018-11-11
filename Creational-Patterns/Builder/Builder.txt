@@ -1,0 +1,7 @@
+Seprate the contruction of a complex object from its representation so that the same construction process can create different representations.
+
+ANTI_PATTERN:TELESCOPING_CONTRUCTOR
+when contuctor have too many aruments it become problem to know what arument does what this is TELESCOPING_CONTRUCTOR problem i.e we need to refer constructer every time.
+
+To Prevent this we can bulild a builder class which which builds object for us and sets contructor intialistionof origanl file using many methods.
+ 
