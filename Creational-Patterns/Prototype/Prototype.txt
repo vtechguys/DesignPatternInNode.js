@@ -1,0 +1,11 @@
+When we have a common prorotype for some object we always want them to have this property.
+We use prototype pattern
+
+ALex and Sue and two shopper going for camping they have to buys what is called required items so that must be present on both.
+Rest items can be specified and bought according to your needs.
+These items are different for each but both of them have a base same prototype.
+
+//version 1
+we create two objects but initalise it deifferently and thus repeating ourselves.
+//version 2
+we craeted a file that creates instance for us and assign it required property.
