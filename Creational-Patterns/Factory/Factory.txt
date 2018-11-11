@@ -1,0 +1,5 @@
+Define an interface for creating an object, but let subclasses decide which class to instantiate.Factory Method lets a cls  defer instantiation to subclass.
+
+//version 1 imports all different type of user at one place use contructor required by us at times.
+//version 2 return a type of user passed to it as arument.
+generates a definite type as in store.but just prevent re-imports whereever required;
