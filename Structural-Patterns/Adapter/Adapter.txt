@@ -1,0 +1,2 @@
+Adapter pattern
+Converting interface of class into another clients expexct.Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.

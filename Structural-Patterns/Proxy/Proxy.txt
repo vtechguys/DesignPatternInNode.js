@@ -1,0 +1,1 @@
+This proteccts a object by exposing limiiting functionallity. 
