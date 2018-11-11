@@ -1,0 +1,13 @@
+This Pattern need to be used when you have some instance of object that is created everytime but essentially nothig useful is beign done with new instance.The Old instance could have acchived the same desired operation even without instantiating instance every time.
+Thus we check if instance alreay exist we use it else create new.
+
+//version 1 of code
+Here we havea normal class that export itself to let other instance it and thus each time a instance is created a new obj is pushed into memnorary.
+So not useable and as always their is new Instance created so we get wrong count always.
+//version 2 using sinlgeton class
+We create a class which exposes singleton instance of Logger class always.
+This singleton tinstance is returned always when requesting for logger.
+No matter how may times logger new instance is being created it is just the same.
+//version 3
+Every code runs once only i.e one file run once so if we expose instnce as export this will be run once and only created once in node.js 
+Thus export instance itself out  from file.

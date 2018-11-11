@@ -1,0 +1,23 @@
+Pattern is a solution that works well in a problem then it is called design pattern.
+DesignPattern are resusbale reliable solution that we face each and every day in Software developement.
+
+Gang of four:Element of Resuable Object-Oriented Software
+Design Pattern:
+Each patten describe a problem which occurs over and over in our envirnoment, abd then describe the core of solution to thath problem, in such a wy that you can use this solution  million times over, without ever doing it twice same way.
+
+Pattern essential 
+1)Pattern Name
+2)Problem
+3)Solution
+4)Consequences
+
+Three categories of 23 design Pattern
+1)Creational:Class instantiation
+2)Stuctural:Way Object composed or put together
+3)Behaviour:Object behave or Interact with it.
+
+ANTI-Pattern
+Bad solution or bad practices.
+1)__proto__
+2)Callback hell
+3)sync heavy operations(Single threaded Js)
