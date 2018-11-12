@@ -1,1 +1,2 @@
 This proteccts a object by exposing limiiting functionallity. 
+Provide a surrogate or placeholder for anoter object to control access to it.
